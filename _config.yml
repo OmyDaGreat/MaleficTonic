@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: MaleficTonic
+description: "A cool radioactive theme for Jeckyll!"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]

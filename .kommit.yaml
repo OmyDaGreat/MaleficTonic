@@ -21,6 +21,7 @@ scopes:
     - index
     - readme
     - gemspec
+    - _config
   chore:
     - github
     - deps
