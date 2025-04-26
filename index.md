@@ -1,4 +1,7 @@
 ---
+title: Home
 ---
 
-# tonic-starter
+# MaleficTonic
+
+**MaleficTonic** is a cool radioactive theme for Jeckyll!
