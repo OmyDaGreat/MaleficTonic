@@ -2,7 +2,7 @@
 
 types:
   - docs: Documentation only changes, usually affecting index, readme, gemspec, and/or _config
-  - style: Changes that do not affect the meaning of the code
+  - style: Changes that affect the layouts (UI)
   - fix: A bug fix
   - chore: Other changes that don't modify src files
   - revert: Reverts a previous commit
@@ -11,6 +11,8 @@ scopes:
   all:
     - core
     - project
+  style:
+    - default
   docs:
     - project
   chore:
