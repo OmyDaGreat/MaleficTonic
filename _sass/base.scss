@@ -6,6 +6,8 @@ $bright-magenta: #ff00ff;
 $bright-orange: #ff4500;
 $dark-cyan: #007d7d;
 $gray: #333;
+$light-green: #00A900;
+$less-dark-green: #006500;
 
 body {
   background-color: $neon-green;
@@ -59,9 +61,24 @@ code {
   color: $white;
 }
 
-img {
+.banner-container {
+  position: relative;
+  display: inline-block;
+}
+
+.banner-container img {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: $less-dark-green;
+  color: $white;
+  padding: 0.2em 0.5em;
+  font-size: 2em;
+  border-radius: 4px;
 }
