@@ -1,0 +1,57 @@
+$neon-green: #0f0;
+$black: #000;
+$bright-magenta: #ff00ff;
+$bright-orange: #ff4500;
+$white: #fff;
+
+body {
+  background-color: $neon-green;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  max-width: 70ch;
+  color: $black;
+}
+
+strong, b {
+  color: $bright-magenta;
+}
+
+a {
+  color: $bright-orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $bright-magenta;
+  text-decoration: underline;
+}
+
+button {
+  background-color: $black;
+  color: $neon-green;
+  border: 2px solid $neon-green;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $neon-green;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $bright-orange;
+  text-shadow: 0 0 5px $neon-green;
+}
+
+code {
+  background-color: $black;
+  color: $neon-green;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+::selection {
+  background-color: $bright-orange;
+  color: $white;
+}
