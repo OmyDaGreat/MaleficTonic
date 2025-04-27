@@ -1,8 +1,11 @@
 $neon-green: #0f0;
 $black: #000;
+$white: #fff;
+$dark-green: #004d00;
 $bright-magenta: #ff00ff;
 $bright-orange: #ff4500;
-$white: #fff;
+$dark-cyan: #007d7d;
+$gray: #333;
 
 body {
   background-color: $neon-green;
@@ -13,7 +16,7 @@ body {
 }
 
 strong, b {
-  color: $bright-magenta;
+  color: $dark-cyan;
 }
 
 a {
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code {
-  background-color: $black;
+  background-color: $gray;
   color: $neon-green;
   padding: 0.2em 0.4em;
   border-radius: 4px;
