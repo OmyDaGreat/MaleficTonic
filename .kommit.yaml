@@ -28,9 +28,3 @@ options:
   allowCustomScopes: true
   allowEmptyScopes: true
   remindToStageChanges: true
-  allowBreakingChanges:
-    - fix
-  allowIssues:
-    - feat
-    - fix
-    - docs
