@@ -20,6 +20,18 @@ html {
   background-color: $less-dark-green;
 }
 
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px $subtle-shadow, 0 0 20px $neon-green, 0 0 30px $neon-green;
+  }
+  50% {
+    box-shadow: 0 0 20px $subtle-shadow, 0 0 40px $neon-green, 0 0 60px $neon-green;
+  }
+  100% {
+    box-shadow: 0 0 10px $subtle-shadow, 0 0 20px $neon-green, 0 0 30px $neon-green;
+  }
+}
+
 body {
   background-color: $neon-green;
   font-family: Urbanist, sans-serif;
@@ -30,6 +42,7 @@ body {
   padding: 1em;
   box-shadow: 0 0 10px $subtle-shadow, 0 0 20px $neon-green, 0 0 30px $neon-green;
   border-radius: 8px;
+  animation: glow 3s infinite;
 }
 
 strong, b {
