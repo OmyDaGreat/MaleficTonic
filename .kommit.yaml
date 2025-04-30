@@ -16,6 +16,7 @@ scopes:
     - default
     - head
     - banner
+    - fonts
   style:
     - sass
     - assets
