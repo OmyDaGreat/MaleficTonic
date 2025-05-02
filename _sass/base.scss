@@ -5,19 +5,19 @@ $dark-green: #004d00;
 $bright-magenta: #ff00ff;
 $bright-orange: #ff4500;
 $dark-cyan: #007d7d;
-$gray: #333;
+$gray: #242729;
 $light-green: #00A900;
 $less-dark-green: #006500;
 $very-dark-green: #002200;
-$soft-gray: #f5f5f5;
 $bright-blue: #007bff;
 $soft-pink: #ff69b4;
 $golden-yellow: #ffd700;
 $deep-purple: #800080;
+$brown: #BFB19E;
 $subtle-shadow: rgba(0, 0, 0, 0.2);
 
 html {
-  background-color: $less-dark-green;
+  background-color: $gray;
 }
 
 @keyframes glow {
@@ -37,16 +37,12 @@ body {
   font-family: Urbanist, sans-serif;
   margin: 2em auto;
   max-width: 70ch;
-  color: $black;
+  color: $white;
   line-height: 1.6;
   padding: 1em;
   box-shadow: 0 0 10px $subtle-shadow, 0 0 20px $neon-green, 0 0 30px $neon-green;
   border-radius: 8px;
   animation: glow 3s infinite;
-}
-
-strong, b {
-  color: $very-dark-green;
 }
 
 a {
@@ -77,7 +73,7 @@ button:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $less-dark-green;
+  color: $white;
   text-shadow: 1px 1px 3px $dark-green;
   margin-bottom: 0.5em;
 }
@@ -99,7 +95,7 @@ code {
   position: relative;
   display: inline-block;
   margin: 1em 0;
-  border: 2px solid $dark-green;
+  border: 2px solid $brown;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px $subtle-shadow;
