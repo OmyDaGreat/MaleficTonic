@@ -1,10 +1,19 @@
-# Tonic Starter
+# MaleficTonic
 
-A sample [Jekyll](https://jekyllrb.com) theme designed to be a starting point for all [Tonic](https://github.com/hackclub/tonic) submissions.
+A small, radioactive Jekyll theme for Hack Club's [Tonic](https://github.com/hackclub/tonic).
 
-This template is intentionally left incomplete; users should play through Tonic to learn how to make a full-featured theme.
+![Screenshot](https://github.com/user-attachments/assets/2f011ae4-ba31-4eff-9b17-82262f09c06a)
 
-# Usage
-1. At the top of this page, select **Use this template** &gt; **Create a new repository** to clone the template to your account.
-2. Create a codespace from the created repository (for beginners) or use `git clone` (for advanced users) to start pushing commits.
-3. Run `gem install jekyll`, then `jekyll serve` to see the template in action.
+Quick start
+- Remote theme (GitHub Pages + plugin):
+```yaml
+# _config.yml
+plugins:
+  - jekyll-remote-theme
+remote_theme: OmyDaGreat/MaleficTonic
+```
+- Or copy the theme files into your site (_layouts, _includes, _sass, assets).
+
+Customize
+- Edit colors and variables in `_sass/_variables.scss`.
+- Tweak layouts in `_layouts/` and includes in `_includes/`.
